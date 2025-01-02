@@ -1,0 +1,41 @@
+/* Featured Property Section */
+.featured-property-types {
+    background-color: #f9f9f9;
+  }
+  
+  /* Property Card Styling */
+  .property-card {
+    width: 180px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .property-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  /* Icon Container */
+  .icon-container {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 30px;
+  }
+  
+  /* Card Title */
+  .property-card .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Card Text */
+  .property-card .card-text {
+    font-size: 14px;
+  }
+  

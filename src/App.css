@@ -9,3 +9,29 @@ body{
   font-family: 'Poppins', sans-serif;
   background-color: #f5f5f5;
 }
+.logo{
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  color: #35bd5e;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.list_item{
+  font-weight:500;
+  color: black;
+  text-transform: capitalize;
+}
+.list_item:hover{
+  color: #35bd5e;
+  font-weight: 600;
+}
+.btn{
+  border: none;
+  border-radius: 20px;
+}

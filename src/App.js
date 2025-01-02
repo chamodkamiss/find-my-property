@@ -1,13 +1,11 @@
 import React from 'react'
-import Page from './components/pages/Page'
 import Header from './components/common/header/Header'
+import './App.css'
 
 function App() {
   return (
     <>
-    
      <Header /> 
-     <Page /> 
     </>
   )
 }

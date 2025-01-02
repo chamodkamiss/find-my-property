@@ -1,0 +1,42 @@
+/* Section Styling */
+.recent-property-listed {
+    background-color: #f9f9f9;
+  }
+  
+  /* Card Styling */
+.property-card {
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+.property-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+  
+  /* Badge Styling */
+.badge {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+  
+  /* Heart Icon Button */
+.fa-heart {
+    font-size: 20px;
+    cursor: pointer;
+}
+  
+.fa-heart:hover {
+    color: red;
+}
+  
+  /* Image Styling */
+.property-card img {
+    height: 200px;
+    object-fit: cover;
+}
+  

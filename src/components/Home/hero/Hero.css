@@ -1,0 +1,35 @@
+/* Hero Section Styling */
+.hero-section {
+    background: url("/src/components/images/hero.jpg") no-repeat center center/cover;
+    padding: 180px 0;
+    color: white;
+    position: relative;
+}
+  
+/* Form Container */
+.search-form-container {
+    max-width: 900px;
+    margin: 0 auto;  
+}
+  
+.search-form-container .form-label {
+    font-size: 14px;
+    color: #555;
+}
+  
+.search-form-container .form-control {
+    border-radius: 0;
+}
+
+.form-control::placeholder{
+    color: black;
+}
+  
+.search-form-container button {
+    border-radius: 0;
+    font-weight: bold;
+}
+.fa{
+    padding-left: 1rem;
+}
+  
