@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm install react-router-dom",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-router-dom"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-bootstrap bootstrap",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-bootstrap",
+				"bootstrap"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
