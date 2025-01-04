@@ -7,9 +7,9 @@ const Footer = () => {
   return (
     <footer className="bg-dark text-white py-5 ">
     <Container>
-      <Row className='pb-5'>
+      <Row className='pb-5 justify-content-between'>
         {/* Logo and Help Section */}
-        <Col md={4}>
+        <Col md={6} lg={5}>
           <h4 className="fw-bold">FindMyProp</h4>
           <p>Do You Need Help With Anything?</p>
           <p>
@@ -27,13 +27,13 @@ const Footer = () => {
         </Col>
 
         {/* Quick Links */}
-        <Col md={3}>
+        <Col md={4} lg={3}>
           <br />
-          <ul className="list-unstyled">
-            <li><Link to="/about" className="text-white text-decoration-none">About</Link></li>
-            <li><Link to="/services" className="text-white text-decoration-none">Services</Link></li>
-            <li><Link to="/prices" className="text-white text-decoration-none">Prices</Link></li>
-            <li><Link to="/contact" className="text-white text-decoration-none">Contact Us</Link></li>
+          <ul className="list-unstyled ">
+            <li ><Link to="/" className="text-white text-decoration-none fs-5">Home</Link></li>
+            <li><Link to="/about" className="text-white text-decoration-none fs-5">About</Link></li>
+            <li><Link to="/services" className="text-white text-decoration-none fs-5">Search</Link></li>
+            <li><Link to="/contact" className="text-white text-decoration-none fs-5">Contact Us</Link></li>
             
           </ul>
         </Col>

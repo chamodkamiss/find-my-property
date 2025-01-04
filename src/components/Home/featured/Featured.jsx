@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Card } from "react-bootstrap";
 import './Featured.css';
+import { Link } from 'react-router-dom';
 
 const propertyTypes = [
     {
@@ -54,9 +55,10 @@ const Featured = () => {
         <Row className="gy-4 ">
           {propertyTypes.map((property, index) => (
             <Col md={6} lg={2} key={index} className="d-flex justify-content-center m-auto">
-              <Card className="property-card text-center">
+              <Link to="/services" className="text-decoration-none"> 
+              <Card className="property-card text-center" style={{ width: '12rem' }}>
                 <div
-                  className="icon-container mx-auto mb-3"
+                  className="icon-container mx-auto mb-3 "
                   style={{
                     backgroundColor: property.bgColor,
                     color: property.textColor,
@@ -69,6 +71,8 @@ const Featured = () => {
                   <Card.Text className="text-muted">{property.count}</Card.Text>
                 </Card.Body>
               </Card>
+              </Link>  
+              
             </Col>
           ))}
         </Row>

@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import properties from '.././src/properties.json';
 
 import './App.css'
 
@@ -10,18 +11,30 @@ import Services from './components/services/Services'
 import Prices from './components/prices/Prices'
 import Header from './components/common/header/Header'
 import Footer from './components/common/footer/Footer'
+import PropertyDetails from './components/services/PropertyDetails'
 
 
-function App() {
+const App = () =>{
   return (
     <>
     <Router>
       <Header/>
       <Routes>
+      {/* <Route
+            path="/services"
+            element={
+              <>
+                <Search onSearch={handleSearch} />
+                <PropertyList properties={filteredProperties} />
+              </>
+            }
+          />
+          <Route path="/property/:id" element={<PropertyDetails />} /> */}
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/services" element={<Services />} />
+        <Route path="/property/:id" element={<PropertyDetails />} />
         <Route path="/prices" element={<Prices />} />
       </Routes>
      <Footer/>

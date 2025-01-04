@@ -20,7 +20,7 @@ const Question = () => {
           <p>We'll help you to grow your career and growth.</p>
         </Col>
         <Col md={4} className="text-md-end">
-          <Button variant="light" className="contact-btn" onClick={handleContactClick}>
+          <Button variant="light" className="contact-btn "  onClick={handleContactClick}>
             Contact Us Today
           </Button>
         </Col>

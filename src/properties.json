@@ -1,0 +1,213 @@
+[
+        {
+            "id":"prop1",
+            "name": "Luxury House",
+			"type":"House",
+            "bedrooms":3,
+			"price":750000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Colombo-Fort station  and within easy walking distance of local shops, schools, bus routes and World Trade Center.",
+			"location":"Colombo",
+			"picture":"https://placehold.co/800x600?text=Main+Image",
+			"url":"properties/prop1.html",
+            "dateAdded": "2025-01-01",
+            "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+        },
+		{
+            "id":"prop2",
+            "name": "Modern Apartment",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":399995,
+			"tenure":"Freehold",
+			"description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine.",
+			"location":"Kaluthara",
+			"picture":"https://placehold.co/800x600?text=Main+Image",
+			"url":"properties/prop2.html",
+            "dateAdded": "2025-01-01",
+            "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+        },
+        {
+                "id": "prop3",
+                "name": "Modern Apartment",
+                "type": "Flat",
+                "bedrooms": 2,
+                "price": 450000,
+                "tenure": "Leasehold",
+                "description": "A beautifully designed two-bedroom apartment located in the heart of Colombo. Open-plan living with a modern kitchen and large balcony. Close to shops, restaurants, and public transport.",
+                "location": "Colombo 07",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop2.html",
+                "dateAdded": "2025-01-03",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop4",
+                "name": "Seaside Villa",
+                "type": "House",
+                "bedrooms": 5,
+                "price": 1250000,
+                "tenure": "Freehold",
+                "description": "A luxurious five-bedroom villa overlooking the ocean. Features include a private pool, spacious living areas, and direct beach access. Ideal for large families or vacation rentals.",
+                "location": "Galle",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop3.html",
+                "dateAdded": "2025-01-05",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop5",
+                "name": "Cosy Studio",
+                "type": "Flat",
+                "bedrooms": 1,
+                "price": 200000,
+                "tenure": "Leasehold",
+                "description": "A compact yet stylish studio apartment perfect for single professionals or couples. Conveniently located near transport links and shopping centers.",
+                "location": "Kandy",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop4.html",
+                "dateAdded": "2025-01-02",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop6",
+                "name": "Country Cottage",
+                "type": "House",
+                "bedrooms": 4,
+                "price": 600000,
+                "tenure": "Freehold",
+                "description": "Charming four-bedroom cottage with a beautiful garden and scenic countryside views. Perfect for those seeking a tranquil lifestyle.",
+                "location": "Nuwara Eliya",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop5.html",
+                "dateAdded": "2025-01-06",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop7",
+                "name": "City Center Apartment",
+                "type": "Flat",
+                "bedrooms": 3,
+                "price": 700000,
+                "tenure": "Leasehold",
+                "description": "A spacious three-bedroom apartment in the city center. Features modern fittings, great views, and proximity to all major amenities.",
+                "location": "Gampaha",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop6.html",
+                "dateAdded": "2025-01-04",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop8",
+                "name": "Luxury Penthouse",
+                "type": "Flat",
+                "bedrooms": 4,
+                "price": 1500000,
+                "tenure": "Leasehold",
+                "description": "An exclusive four-bedroom penthouse offering stunning views of the city skyline. Features include a private rooftop terrace and high-end finishes throughout.",
+                "location": "Colombo 01",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop7.html",
+                "dateAdded": "2025-01-07",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop9",
+                "name": "Family Home",
+                "type": "House",
+                "bedrooms": 3,
+                "price": 500000,
+                "tenure": "Freehold",
+                "description": "A delightful three-bedroom family home with a spacious garden. Located in a quiet neighborhood, close to schools and parks.",
+                "location": "Matara",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop8.html",
+                "dateAdded": "2025-01-03",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            },
+            {
+                "id": "prop10",
+                "name": "Lakefront Villa",
+                "type": "House",
+                "bedrooms": 6,
+                "price": 2000000,
+                "tenure": "Freehold",
+                "description": "A breathtaking six-bedroom lakefront villa featuring a private dock, landscaped gardens, and luxurious interiors. Perfect for retreats or entertaining guests.",
+                "location": "Anuradhapura",
+                "picture": "https://placehold.co/800x600?text=Main+Image",
+                "url": "properties/prop9.html",
+                "dateAdded": "2025-01-08",
+                "images": [
+                "https://placehold.co/800x600?text=Main+Image",
+                "https://placehold.co/800x600?text=Bedroom",
+                "https://placehold.co/800x600?text=Kitchen",
+                "https://placehold.co/150x100?text=Thumbnail1",
+                "https://placehold.co/150x100?text=Thumbnail2",
+                "https://placehold.co/150x100?text=Thumbnail3"
+            ]
+            }
+        
+]

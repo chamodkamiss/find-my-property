@@ -7,50 +7,50 @@ const properties = [
     {
       image: "/images/list/p1.jpg", // Replace with actual image URLs
       status: "For Rent",
-      title: "Red Carpet Real Estate",
-      location: "210 Zirak Road, Canada",
-      price: "$3,700",
+      title: "Luxury two stair house",
+      location: "210 Armour Street, Colombo",
+      price: "LKR 30,000",
       type: "Apartment",
     },
     {
       image: "/images/list/p2.jpg",
       status: "For Sale",
       title: "Fairmount Properties",
-      location: "5698 Zirak Road, NewYork",
-      price: "$9,750",
-      type: "Condos",
+      location: "569/1 Vijaya Road, Kolonnawa",
+      price: "LKR 4,000,000",
+      type: "House",
     },
     {
       image: "/images/list/p3.jpg",
       status: "For Rent",
       title: "The Real Estate Corner",
-      location: "5624 Mooker Market, USA",
-      price: "$5,860",
-      type: "Offices",
+      location: "562 Malwathu Road, Kandy",
+      price: "LKR 35,000",
+      type: "Apartment",
     },
     {
       image: "/images/list/p4.jpg",
       status: "For Rent",
-      title: "The Real Estate Corner",
-      location: "5624 Mooker Market, USA",
-      price: "$5,860",
+      title: "Modern Office Space",
+      location: "64/4 Queens Avenue, Colombo",
+      price: "LKR 45,500",
       type: "Offices",
     },
     {
       image: "/images/list/p5.jpg",
       status: "For Rent",
-      title: "The Real Estate Corner",
-      location: "5624 Mooker Market, USA",
-      price: "$5,860",
-      type: "Offices",
+      title: "Fully Furnished House",
+      location: "24/5 Tewatta Road, Ragama",
+      price: "LKR 15,000",
+      type: "House",
     },
     {
       image: "/images/list/p6.jpg",
       status: "For Rent",
-      title: "The Real Estate Corner",
-      location: "5624 Mooker Market, USA",
-      price: "$5,860",
-      type: "Offices",
+      title: "Family House",
+      location: "54 Ganemulla Market, Gampaha",
+      price: "LKR 54,860",
+      type: "House",
     },
 ];
 
@@ -74,17 +74,16 @@ const Recent = () => {
       <div className="text-center mb-5">
         <h2 className="fw-bold">Recent Property Listed</h2>
         <p className="text-muted">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad minim veniam.
+        Discover the latest properties added to our listings. 
+        Whether you're looking for a new home or an investment opportunity, explore our recent additions to find the perfect property for you.
         </p>
       </div>
 
       {/* Property Cards */}
-      <Row className="gy-4">
+      <Row className="gy-6">
         {properties.map((property) => (
           <Col md={6} lg={4} key={property.id}>
-            <Card className="property-card shadow-sm">
+            <Card className="property-card shadow-sm" style={{ width: '22rem' }}>
               <Card.Img
                 variant="top"
                 src={property.image}

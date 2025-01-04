@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Row, Col,Form,Button } from 'react-bootstrap'
-// import './Contact.css'
+import './Contact.css'
 
 
 
@@ -12,14 +12,7 @@ const Contact = () => {
   };
   return (
     <>
-    <div className="text-white py-5 mb-5" style={{
-        background: 'linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/src/components/images/contact.jpg")',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        minHeight: '300px',
-        display: 'flex',
-        alignItems: 'center'
-      }}>
+    <div className="contact-section "> 
         <Container>
           <Row>
             <Col>

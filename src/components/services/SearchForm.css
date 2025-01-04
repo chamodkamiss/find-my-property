@@ -1,0 +1,39 @@
+.property-cards-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.property-card {
+  flex: 1 1 calc(50% - 16px);
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+  .property-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .property-card h3 {
+    margin: 8px 0;
+  }
+  .property-card p {
+    text-align: justify;
+    margin: 4px 0;
+  }
+  .search-button{
+    background-color: #198754;
+    padding: auto;
+  }
+form input, form select {
+  margin-right: 10px;
+}
+
+.search-button {
+  margin-top: 10px;
+}
+  

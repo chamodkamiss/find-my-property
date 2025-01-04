@@ -36,6 +36,43 @@
 			"presentation": {
 				"reveal": "silent"
 			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-image-gallery",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-image-gallery"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-tabs",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-tabs"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-dnd react-dnd-html5-backend",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-dnd",
+				"react-dnd-html5-backend"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
 		}
 	]
 }

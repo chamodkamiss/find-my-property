@@ -1,13 +1,10 @@
 .contact-section{
-    background-image: url('/src/components/images/contact.jpg');
+    background: url("/src/components/images/contact.jpg") no-repeat center center/cover;
     opacity: 0.8;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 400px; 
-    display: flex;
-    align-items: center;
+    min-height: 300px;
+    padding: 100px 0;
     color: white;
+    position: relative;
 }
 
 form {

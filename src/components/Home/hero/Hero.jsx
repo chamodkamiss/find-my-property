@@ -1,6 +1,7 @@
 import React from 'react'
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import './Hero.css'
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -17,7 +18,7 @@ const Hero = () => {
       </Row>
 
       {/* Search Form Section */}
-      <div className="search-form-container mt-4 p-3 bg-white rounded shadow">
+      {/* <div className="search-form-container mt-4 p-3 bg-white rounded shadow">
         <Form>
           <Row>
             <Col md={3}>
@@ -45,7 +46,9 @@ const Hero = () => {
             </Col>
           </Row>
         </Form>
-      </div>
+      </div> */}
+      <Button href='/services' variant="success" className=" mt-4" size='lg'>Get Started</Button>
+
     </Container>
   </div>
   )
