@@ -41,8 +41,8 @@ This project is a **Property Search Application** built with React and React-Boo
 - bootstrap: ^5.3.3
 
 ## Acknoledgements
-- - React Bootstrap: For UI components
-- - Google Maps: For map integration
-- - Placeholder Image Generator: For sample property images
+- React Bootstrap: For UI components
+- Google Maps: For map integration
+-  Placeholder Image Generator: For sample property images
  
 
