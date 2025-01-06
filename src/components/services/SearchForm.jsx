@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
@@ -10,14 +10,15 @@ import { Col, Container,Row,Card,Button } from 'react-bootstrap';
 const SearchForm = () => {
   const [filters, setFilters] = useState({
     
-    type: '',
+    type: '', //Property type
     minPrice: '', // Minimum price
     maxPrice: '', // Maximum price
     minBedrooms: '', // Minimum bedrooms
     maxBedrooms: '', // Maximum bedrooms
     dateAdded: '', // Date added (for filtering after a specific date)
-    location: '',
-    picture: ''
+    location: '', //Property Location
+    picture: '', //Property Image
+    plan:'' //Property floor plan
   });
 
   
@@ -32,6 +33,8 @@ const SearchForm = () => {
   const removeFromFavorites = (propertyId) => {
     setFavorites(favorites.filter(property => property.id !== propertyId));
   };
+
+  
 
   const handleSearch = () => {
     const results = properties.filter((property) => {
@@ -50,8 +53,9 @@ const SearchForm = () => {
         // Filter by date added
         (!filters.dateAdded || new Date(property.dateAdded) >= new Date(filters.dateAdded)) &&
   
-        // Filter by postcode
-        (!filters.location || (property.location && property.location.toLowerCase().startsWith(filters.location.toLowerCase())))
+        // Filter by location
+        (!filters.location || (property.location && property.location.toLowerCase().includes(filters.location.toLowerCase())))
+
       );
     });
     setFilteredProperties(results);
@@ -64,10 +68,10 @@ const SearchForm = () => {
         <Row >
             <Col md={8}>
             
-            <h2 className='pt-2'>Search for Properties</h2>
+            <h2 className='pt-2 '>Search for Properties</h2>
       
             {/* Search Form */}
-            <form onSubmit={(e) => e.preventDefault()}>
+            <form onSubmit={(e) => e.preventDefault()} >
             <select
                 value={filters.type}
                 onChange={(e) => setFilters({ ...filters, type: e.target.value })}
@@ -109,23 +113,31 @@ const SearchForm = () => {
                 onChange={(e) => setFilters({ ...filters, dateAdded: e.target.value })}
             />
 
-            <input
-                type="text"
-                placeholder="Location(Colombo,Gampaha,Kandy)"
+            <select
                 value={filters.location}
                 onChange={(e) => setFilters({ ...filters, location: e.target.value })}
-            />
+            >
+                <option value="">--Select Location--</option>
+                <option value="colombo">Colombo</option>
+                <option value="gampaha">Gampaha</option>
+                <option value="kaluthara">Kaluthara</option>
+                <option value="kandy">Kandy</option>
+                <option value="matara">Matara</option>
+                <option value="galle">Galle</option>
+                <option value="anuradhapura">Anuradhapura</option>
+                <option value="nuwara eliya">Nuwara Eliya</option>
+            </select>
 
             <button onClick={handleSearch} class='search-button '>Search</button>
             </form>
 
 
             {/* Display Results */}
-            <div class='display-list' style={{width:'18rem'}}>
+            <div class='display-list' >
             {filteredProperties.length > 0 ? (
-              <div className="property-cards-container">
+              <div className="property-cards-container" >
                 {filteredProperties.map((property) => (
-                <div key={property.id} className="property-card">
+                <div key={property.id} className="property-card ">
                 <img src={property.picture} alt={property.name} />
                 <h3>{property.name}</h3>                
                 <p>Price: LKR{property.price}</p>
@@ -150,7 +162,7 @@ const SearchForm = () => {
                 <TabPanel>
                 <h2>Floor Plan</h2>
                 <img 
-                    src="floor-plan-image-url" 
+                    src={property.plan} 
                     alt="Floor Plan" 
                     style={{ width: '100%', height: 'auto' }} 
                 />
@@ -159,8 +171,7 @@ const SearchForm = () => {
                 <TabPanel>
                 <h2>Google Map</h2>
                 <div style={{ height: '400px', width: '100%' }}>
-                    {/* Google Map Embed Code or React Google Map Component */}
-                    <iframe 
+                    <iframe title='location map'
                     width="100%" 
                     height="100%" 
                     frameBorder="0" 

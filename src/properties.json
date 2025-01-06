@@ -15,10 +15,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+                "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
         },
 		{
             "id":"prop2",
@@ -36,10 +37,12 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+               "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
+            
         },
         {
                 "id": "prop3",
@@ -57,10 +60,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+              "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop4",
@@ -78,10 +82,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+               "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop5",
@@ -99,10 +104,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+               "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop6",
@@ -120,10 +126,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+                "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop7",
@@ -141,10 +148,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+               "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop8",
@@ -162,10 +170,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+             "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop9",
@@ -183,10 +192,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+                "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             },
             {
                 "id": "prop10",
@@ -204,10 +214,11 @@
                 "https://placehold.co/800x600?text=Main+Image",
                 "https://placehold.co/800x600?text=Bedroom",
                 "https://placehold.co/800x600?text=Kitchen",
-                "https://placehold.co/150x100?text=Thumbnail1",
-                "https://placehold.co/150x100?text=Thumbnail2",
-                "https://placehold.co/150x100?text=Thumbnail3"
-            ]
+                "https://placehold.co/150x100?text=LivingRoom",
+                "https://placehold.co/150x100?text=DressingRoom",
+                "https://placehold.co/150x100?text=Bedroom"
+            ],
+            "plan":"https://placehold.co/800x600?text=Floor+Plan"
             }
         
 ]

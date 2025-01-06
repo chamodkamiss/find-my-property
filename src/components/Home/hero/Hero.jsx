@@ -1,7 +1,7 @@
 import React from 'react'
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Row, Col,  Button } from "react-bootstrap";
 import './Hero.css'
-import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
   return (
@@ -16,37 +16,6 @@ const Hero = () => {
           </p>
         </Col>
       </Row>
-
-      {/* Search Form Section */}
-      {/* <div className="search-form-container mt-4 p-3 bg-white rounded shadow">
-        <Form>
-          <Row>
-            <Col md={3}>
-              <Form.Group controlId="location">
-                <Form.Label>City/Street</Form.Label>
-                <Form.Control type="text" placeholder="Location" />
-              </Form.Group>
-            </Col>
-            <Col md={3}>
-              <Form.Group controlId="propertyType">
-                <Form.Label>Property Type</Form.Label>
-                <Form.Control type="text" placeholder="Property Type" />
-              </Form.Group>
-            </Col>
-            <Col md={3}>
-              <Form.Group controlId="priceRange">
-                <Form.Label>Price Range</Form.Label>
-                <Form.Control type="text" placeholder="Price Range" />
-              </Form.Group>
-            </Col>
-            <Col md={3} className="d-flex align-items-end">
-              <Button variant="success" className="w-100">
-                 Search <i className="fa fa-search"></i>
-              </Button>
-            </Col>
-          </Row>
-        </Form>
-      </div> */}
       <Button href='/services' variant="success" className=" mt-4" size='lg'>Get Started</Button>
 
     </Container>

@@ -6,28 +6,3 @@
     position: relative;
 }
   
-/* Form Container */
-.search-form-container {
-    max-width: 900px;
-    margin: 0 auto;  
-}
-  
-.search-form-container .form-label {
-    font-size: 14px;
-    color: #555;
-}
-  
-.search-form-container .form-control {
-    border-radius: 0;
-}
-
-.form-control::placeholder{
-    color: black;
-}
-  
-.search-form-container button {
-    border-radius: 0;
-    font-weight: bold;
-}
-
-  

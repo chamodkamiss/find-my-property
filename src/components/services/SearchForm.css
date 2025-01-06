@@ -1,38 +1,38 @@
+.display-list{
+  margin: 20px auto;
+}
 .property-cards-container{
   display: flex;
-  flex-direction: column;
-  gap: 16px;
+  flex-wrap: wrap;
 }
-
 .property-card {
-  flex: 1 1 calc(50% - 16px);
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  padding: 16px;
-  margin: 16px;
+  border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #f9f9f9;
+
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
 }
-  .property-card img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-  }
-  .property-card h3 {
-    margin: 8px 0;
-  }
-  .property-card p {
-    text-align: justify;
-    margin: 4px 0;
-  }
-  .search-button{
-    background-color: #198754;
-    padding: auto;
-  }
+.property-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.property-card h3 {
+  margin: 8px 0;
+}
+.property-card p {
+  text-align: justify;
+  margin: 4px 0;
+}
+.search-button{
+  background-color: #198754;
+  padding: auto;
+}
 form input, form select {
   margin-right: 10px;
 }
-
 .search-button {
   margin-top: 10px;
 }

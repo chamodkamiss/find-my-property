@@ -1,22 +1,22 @@
 .questions-section {
-    background-color: #198754; /* Green background */
-  }
+  background-color: #198754; /* Green background */
+}
   
-  .questions-section .contact-btn {
-    height: 50px;
-    width: 200px;
-    font-weight: 500;
-    font-size: 1.1rem;
-    padding: 10px 20px;
-    border-radius: 30px; /* Rounded edges */
-    color: #28a745;
-    background-color: #fff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    border: none;
-  }
+.questions-section .contact-btn {
+  height: 50px;
+  width: 200px;
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 30px; /* Rounded edges */
+  color: #28a745;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: none;
+}
   
-  .questions-section .contact-btn:hover {
-    background-color: #f8f9fa; /* Lighter shade on hover */
-    color: #176027; /* Darker green text on hover */
-  }
+.questions-section .contact-btn:hover {
+  background-color: #f8f9fa; /* Lighter shade on hover */
+  color: #176027; /* Darker green text on hover */
+}
   

@@ -13,7 +13,7 @@ const Services = () => {
         <Container>
           <Row>
             <Col md={6}>
-              <h6 className="text-white mb-3 pt-5">Services</h6>
+              <h6 className="text-white mb-3 pt-5">Our Service</h6>
               <h1 className="display-5 fw-bold mb-4">
                 Search Your own Property
               </h1>
