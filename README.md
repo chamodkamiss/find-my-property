@@ -40,7 +40,7 @@ This project is a **Property Search Application** built with React and React-Boo
 - ajv: ^8.17.1
 - bootstrap: ^5.3.3
 
-## Acknoledgements
+## Acknowledgments
 - React Bootstrap: For UI components
 - Google Maps: For map integration
 -  Placeholder Image Generator: For sample property images
