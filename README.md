@@ -1,12 +1,11 @@
 # Real Estate Search Application
----
 
 This project is a **Property Search Application** built with React and React-Bootstrap. It allows users to search for properties using various criteria, such as location, price, property type,date added and number of bedrooms. The application is designed to provide a seamless user experience with a responsive layout and visually appealing design. Each property has a detailed page for additional information.
 
 ---
 
 ## Features
-- **Search Properties**: Users can filter properties by type, price range, bedrooms, date added, and postcode area.
+- **Search Properties**: Users can filter properties by type, price range, bedrooms, date added, and location.
 - **Detailed Property View**: Each property has its own page with:
   - A large image carousel of property pictures.
   - Long description of the property.
@@ -26,7 +25,7 @@ This project is a **Property Search Application** built with React and React-Boo
 
 ---
 
-### Dependencies
+## Dependencies
 - react: ^19.0.0
 - react-bootstrap: ^2.10.7
 - react-dnd: ^16.0.1
@@ -41,4 +40,9 @@ This project is a **Property Search Application** built with React and React-Boo
 - ajv: ^8.17.1
 - bootstrap: ^5.3.3
 
+## Acknoledgements
+- - React Bootstrap: For UI components
+- - Google Maps: For map integration
+- - Placeholder Image Generator: For sample property images
+ 
 
