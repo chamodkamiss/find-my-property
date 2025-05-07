@@ -1,0 +1,78 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "npm install react-router-dom",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-router-dom"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-bootstrap bootstrap",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-bootstrap",
+				"bootstrap"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install",
+			"command": "npm",
+			"args": [
+				"install"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-image-gallery",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-image-gallery"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-tabs",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-tabs"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		},
+		{
+			"type": "shell",
+			"label": "npm install react-dnd react-dnd-html5-backend",
+			"command": "npm",
+			"args": [
+				"install",
+				"react-dnd",
+				"react-dnd-html5-backend"
+			],
+			"presentation": {
+				"reveal": "silent"
+			}
+		}
+	]
+}
