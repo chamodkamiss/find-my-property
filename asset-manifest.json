@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/demo-react-project/static/css/main.e99b8b48.css",
-    "main.js": "/demo-react-project/static/js/main.323a205e.js",
-    "static/js/453.1b8d4295.chunk.js": "/demo-react-project/static/js/453.1b8d4295.chunk.js",
-    "static/media/contact.jpg": "/demo-react-project/static/media/contact.9b84d9c43f93006b03e1.jpg",
-    "static/media/about-family.jpg": "/demo-react-project/static/media/about-family.69967419fa1f77cfced0.jpg",
-    "static/media/about.jpg": "/demo-react-project/static/media/about.b45d9abd9abc1100a94d.jpg",
-    "static/media/hero.jpg": "/demo-react-project/static/media/hero.175c11ffb407f307a2a4.jpg",
-    "static/media/service.jpg": "/demo-react-project/static/media/service.fd055671e9e872931954.jpg",
-    "index.html": "/demo-react-project/index.html",
-    "main.e99b8b48.css.map": "/demo-react-project/static/css/main.e99b8b48.css.map",
-    "main.323a205e.js.map": "/demo-react-project/static/js/main.323a205e.js.map",
-    "453.1b8d4295.chunk.js.map": "/demo-react-project/static/js/453.1b8d4295.chunk.js.map"
+    "main.css": "/find-my-property/static/css/main.d45986eb.css",
+    "main.js": "/find-my-property/static/js/main.a3388ded.js",
+    "static/js/453.1b8d4295.chunk.js": "/find-my-property/static/js/453.1b8d4295.chunk.js",
+    "static/media/contact.jpg": "/find-my-property/static/media/contact.9b84d9c43f93006b03e1.jpg",
+    "static/media/about-family.jpg": "/find-my-property/static/media/about-family.69967419fa1f77cfced0.jpg",
+    "static/media/about.jpg": "/find-my-property/static/media/about.b45d9abd9abc1100a94d.jpg",
+    "static/media/hero.jpg": "/find-my-property/static/media/hero.175c11ffb407f307a2a4.jpg",
+    "static/media/service.jpg": "/find-my-property/static/media/service.fd055671e9e872931954.jpg",
+    "index.html": "/find-my-property/index.html",
+    "main.d45986eb.css.map": "/find-my-property/static/css/main.d45986eb.css.map",
+    "main.a3388ded.js.map": "/find-my-property/static/js/main.a3388ded.js.map",
+    "453.1b8d4295.chunk.js.map": "/find-my-property/static/js/453.1b8d4295.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e99b8b48.css",
-    "static/js/main.323a205e.js"
+    "static/css/main.d45986eb.css",
+    "static/js/main.a3388ded.js"
   ]
 }
