@@ -1,5 +1,5 @@
 .contact-section{
-    background: url("/src/components/images/contact.jpg") no-repeat center center/cover;
+    background: url("%PUBLIC_URL%/images/contact.jpg") no-repeat center center/cover;
     opacity: 0.8;
     min-height: 300px;
     padding: 100px 0;
