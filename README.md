@@ -3,7 +3,7 @@
 This project is a **Property Search Application** built with React and React-Bootstrap. It allows users to search for properties using various criteria, such as location, price, property type,date added and number of bedrooms. The application is designed to provide a seamless user experience with a responsive layout and visually appealing design. Each property has a detailed page for additional information.
 
 ## Live Demo
-🔗 [View Live Demo](https://chamodkamiss.github.io)
+🔗 [View Live Demo](https://chamodkamiss.github.io/find-my-property/)
 ---
 
 ## Features
