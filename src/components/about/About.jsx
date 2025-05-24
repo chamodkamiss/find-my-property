@@ -1,5 +1,7 @@
+import React from 'react'
 import { Container,Row,Col,Button } from 'react-bootstrap'
 import './About.css'
+import aboutFamilyImg from '../images/about-family.jpg'
 
 const About = () => {
   return (
@@ -48,8 +50,8 @@ const About = () => {
         
         <Col lg={6}>
           <img
-            src="/images/about-family.jpg"
-            alt="About"
+            src={aboutFamilyImg}
+            alt="Family enjoying time together"
             className="img-fluid rounded-3 w-100"
             style={{ 
               objectFit: 'cover',
