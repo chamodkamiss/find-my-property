@@ -1,5 +1,6 @@
 .contact-section{
-    background: url("/src/components/images/contact.jpg") no-repeat center center/cover;
+    background: url("/images/contact.jpg") no-repeat center center/cover;
+    /* Changed from: url("/src/components/images/contact.jpg") */
     opacity: 0.8;
     min-height: 300px;
     padding: 100px 0;
@@ -18,4 +19,3 @@ form {
 button {
   width: 150px;
 }
-  

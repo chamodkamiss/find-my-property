@@ -1,6 +1,7 @@
 /* Hero Section Styling */
 .hero-section {
-    background: url("%PUBLIC_URL%/images/hero.jpg") no-repeat center center/cover;
+    background: url("/images/hero.jpg") no-repeat center center/cover;
+    /* Changed from: url("%PUBLIC_URL%/images/hero.jpg") */
     padding: 252px 0;
     color: white;
     position: relative;
